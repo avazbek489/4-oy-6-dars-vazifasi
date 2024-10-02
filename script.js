@@ -86,21 +86,78 @@
 //     console.log(i**2);
 // }
 // // 16-SAVOL JAVOBI
-
+// for (let i = 1; i <= 100; i++){
+//     if(i % 7 == 0){
+//         console.log(i);
+//     }
+// }
 // // 17-SAVOL JAVOBI
-
+// for (let i = 1; i <= 10; i++) {
+//     for (let sum = 1; sum <= 10; sum++) {
+//         console.log(`${i} * ${sum} = ${i * sum}`);
+//     }
+// }
 // // 18-SAVOL JAVOBI
+// let num = +prompt("Istalgan son kriting:");
+// let sum = 0;
 
+// for (let i = 1; i <= num; i++) {
+//   if (num % i === 0) {
+//     sum += i;
+//   }
+// }
+
+// alert(sum);
 // // 19-SAVOL JAVOBI
+// let sum = 0;
 
+// for (let i = 1; i <= 50; i += 2){
+//     sum += i
+// }
+// alert(sum)
 // // 20-SAVOL JAVOBI
-
+// let num1 = +prompt("1-sonni kiriting");
+// let num2 = +prompt("2-sonni kiriting");
+// for (let i = num1; i <= num2; i++) {
+//   if (i % 2 == 0) {
+//     console.log(i);
+//   }
+// }
 // // 21-SAVOL JAVOBI
+// let sum = 0;
 
+// for (let i = 1; i <= 100; i += 2) {
+//   sum += i;
+// }
+// alert(sum);
 // // 22-SAVOL JAVOBI
+// let num = +prompt("Istalgan bironta son kiriting")
+// let res = 1;
 
+// for (let i = 1; i <= num; i++) {
+//     res *= i;
+// }
+
+// alert(res);
 // // 23-SAVOL JAVOBI
-
+// for (let i = 1; i <= 50; i++) {
+//     if (i % 3 !== 0 && i % 5 !== 0) {
+//         console.log(i);
+//     }
+// }
 // // 24-SAVOL JAVOBI
-
+// for (let i = 1; i <= 30; i++) {
+//      if (i % 4 == 0 && i % 6 == 0) {
+//          console.log(i);
+//      }
+//  }
 // // 25-SAVOL JAVOBI
+// let num1 = +prompt("1-sonni kiriting")
+// let num2 = +prompt("2-sonni kiriting")
+
+// for (let i = num1; i <= num2; i++){
+//     if(i % 2 !== 0){
+//         console.log(i);
+
+//     }
+// }
